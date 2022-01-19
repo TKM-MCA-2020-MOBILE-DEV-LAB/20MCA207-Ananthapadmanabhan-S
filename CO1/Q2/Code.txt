@@ -1,0 +1,235 @@
+Form Validation
+
+XML CODE
+
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.linear.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto" 
+xmlns:tools="http://schemas.android.com/tools" 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+tools:context=".MainActivity">
+
+
+<TextView
+android:id="@+id/textView4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:text="PASSWORD" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.145" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.519" />
+
+<TextView
+android:id="@+id/textView1"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="NAME" app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.167" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.14" />
+
+<TextView
+android:id="@+id/textView2" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="MOB NO" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.167" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.327" />
+
+<TextView
+android:id="@+id/textView3" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="EMAIL"
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.194" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.431" />
+
+<EditText
+android:id="@+id/editText" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:ems="10" 
+android:inputType="textPersonName" 
+android:hint="Name" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.757" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.125" />
+
+<EditText
+android:id="@+id/editText2" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:ems="10" 
+android:hint="Number" 
+android:inputType="textPersonName"
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.757" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.319" />
+
+<EditText
+android:id="@+id/editText3" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:ems="10" 
+android:inputType="textEmailAddress" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.757" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.425" />
+
+<EditText
+android:id="@+id/editText4" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:ems="10" 
+android:inputType="textPassword" 
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.757" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.523" />
+
+<Button
+android:id="@+id/button" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:background="#00BCD4" 
+android:text="submit" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.464" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.67" />
+
+<EditText
+android:id="@+id/addr" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:ems="10" 
+android:inputType="textPersonName" 
+android:hint="Address" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.757" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.221" />
+
+<TextView
+android:id="@+id/adr" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="Address" 
+app:layout_constraintBottom_toBottomOf="parent" 
+app:layout_constraintEnd_toEndOf="parent" 
+app:layout_constraintHorizontal_bias="0.17" 
+app:layout_constraintStart_toStartOf="parent" 
+app:layout_constraintTop_toTopOf="parent" 
+app:layout_constraintVertical_bias="0.233" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+JAVA CODE
+ 
+import android.widget.EditText; import android.widget.TextView; import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity { Button button;
+TextView name,number,password,mail,addr; EditText ename,enumber,epassword,email,address;
+
+@Override
+protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); setContentView(R.layout.activity_main);
+
+button = findViewById(R.id.button);
+
+name = findViewById(R.id.textView1); number = findViewById(R.id.textView2); mail = findViewById(R.id.textView3); password = findViewById(R.id.textView4); addr=findViewById(R.id.adr);
+
+ename= findViewById(R.id.editText); enumber= findViewById(R.id.editText2); email= findViewById(R.id.editText3); epassword= findViewById(R.id.editText4); address= findViewById(R.id.addr);
+
+
+
+button.setOnClickListener(new View.OnClickListener() { @Override
+public void onClick(View v) { login();
+}
+});
+
+}
+public void login() {
+if (ename.getText().toString().length() == 0) {
+ename.requestFocus(); ename.setError("Name is required"); return;
+}
+String namePattern="^[0-9!@#$%^&*]+$";
+if(ename.getText().toString().matches(namePattern))
+{	ename.requestFocus(); ename.setError("Enter valid name"); return;
+
+}
+String fPattern="^[A-Za-z!@#$%^&*]+[0-9!@#$%^&*]+[A-Za-z!@#$%^&*]+$";
+if(ename.getText().toString().matches(fPattern))
+{	ename.requestFocus(); ename.setError("Enter valid name");
+ 
+return;
+
+}
+String namPattern="^[A-Za-z!@#$%^&*]+[0-9!@#$%^&*]+$";
+if(ename.getText().toString().matches(namPattern))
+{	ename.requestFocus(); ename.setError("Enter valid name"); return;
+
+}
+String naPattern="^[0-9!@#$%^&*]+[A-Za-z!@#$%^&*]++$";
+if(ename.getText().toString().matches(naPattern))
+{	ename.requestFocus(); ename.setError("Enter valid name"); return;
+
+}
+if (address.getText().toString().length() == 0) { address.requestFocus(); address.setError("Address is required"); return;
+}
+String noPattern="^[A-Za-z!@#$%^&*]+$";
+if(enumber.getText().toString().matches(noPattern))
+{	enumber.requestFocus(); enumber.setError("Enter valid number"); return;
+
+}
+String numPattern="^[A-Za-z]+[0-9]+[!@#$%^&*]+$";
+if(enumber.getText().toString().matches(numPattern))
+{	enumber.requestFocus(); enumber.setError("Enter valid number"); return;
+
+}
+String nuPattern="^[A-Za-z]+[0-9]+$";
+if(enumber.getText().toString().matches(nuPattern))
+{	enumber.requestFocus(); enumber.setError("Enter valid number"); return;
+
+}
+String nPattern="^[0-9]+[A-Za-z]+$";
+if(enumber.getText().toString().matches(nPattern))
+{	enumber.requestFocus(); enumber.setError("Enter valid number"); return;
+
+}
+String numberPattern="^[0-9]+[!@#$%^&*]+$";
+if(enumber.getText().toString().matches(numberPattern))
+{	enumber.requestFocus();
+ enumber.setError("Enter valid number");
+ return;
+ 
+} 
